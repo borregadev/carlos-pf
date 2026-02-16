@@ -18,11 +18,11 @@ const About = () => (
             <p key={idx} className='text-myBlack text-justify my-6 mx-5 xs:text-sm xs:leading-7 lg:text-lg lg:my-10'>{text}</p>
           ))}
           <div className='flex justify-center mt-6 lg:justify-end lg:place-items-start lg:mr-5'>
-            <button className='mt-4 p-4 text-white bg-myBlack rounded-lg font-bold hover:bg-myGrey'>
+            {/* <button className='mt-4 p-4 text-white bg-myBlack rounded-lg font-bold hover:bg-myGrey'>
               <a href={Resume} download='carlos-borrega_frontend-developer_resume' className='text-xl xs:text-[17px]'>
                 Download my CV
               </a>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
